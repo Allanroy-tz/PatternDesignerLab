@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace LogisticsManagementSys
 {
@@ -8,7 +6,7 @@ namespace LogisticsManagementSys
     {
         public override void Post(string message)
         {
-            throw new NotImplementedException();
+            this.message.PostMessage("微信", message);
         }
     }
 }

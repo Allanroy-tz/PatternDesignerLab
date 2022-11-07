@@ -1,6 +1,6 @@
 ﻿namespace LogisticsManagementSys
 {
-    public class Tz20200440718_NormalMessage : Tz20200440718_Message
+    public class Tz20200440718_NormalMessage : Tz20200440718_IMessage
     {
         public void PostMessage(string medium, string message)
         {

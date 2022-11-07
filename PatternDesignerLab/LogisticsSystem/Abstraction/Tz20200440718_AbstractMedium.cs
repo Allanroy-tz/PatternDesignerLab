@@ -6,8 +6,8 @@ namespace LogisticsManagementSys
 {
     public abstract class Tz20200440718_AbstractMedium
     {
-        protected Tz20200440718_Message message;
-        public void SetMessage(Tz20200440718_Message message)
+        protected Tz20200440718_IMessage message;
+        public void SetMessage(Tz20200440718_IMessage message)
         {
             this.message = message;
         }

@@ -8,7 +8,7 @@ namespace LogisticsManagementSys
     {
         public override void Post(string message)
         {
-            throw new NotImplementedException();
+            this.message.PostMessage("手机短信", message);
         }
     }
 }
