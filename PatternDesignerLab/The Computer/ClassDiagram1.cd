@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="The_Computer.Computer">
+    <Position X="8" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAACAAACIAAAAAEAABgAAAAAAAAA=</HashCode>
+      <FileName>Computer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="The_Computer.ComputerAbstractBuilder" Collapsed="true">
+    <Position X="4.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAEAAQAAAAgAAAEAAEAAA=</HashCode>
+      <FileName>ComputerAbstractBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="The_Computer.ComputerBuilder01">
+    <Position X="2.75" Y="2.25" Width="1.5" />
+    <InheritanceLine Type="The_Computer.ComputerAbstractBuilder" FixedToPoint="true">
+      <Path>
+        <Point X="5.25" Y="1.548" />
+        <Point X="5.25" Y="1.875" />
+        <Point X="3.562" Y="1.875" />
+        <Point X="3.562" Y="2.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAQAAAAgAAAAAAEAAA=</HashCode>
+      <FileName>ComputerBuilder01.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="The_Computer.ComputerBuilder02">
+    <Position X="4.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAQAAAAgAAAAAAEAAA=</HashCode>
+      <FileName>ComputerBuilder02.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="The_Computer.Computerbuilder03">
+    <Position X="6.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAQAAAAgAAAAAAEAAA=</HashCode>
+      <FileName>ComputerBuilder03.cs</FileName>
+      <NewMemberFileName>Computerbuilder03.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="The_Computer.Assembler">
+    <Position X="1" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAIAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assembler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
