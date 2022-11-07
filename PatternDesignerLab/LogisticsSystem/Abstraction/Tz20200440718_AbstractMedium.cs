@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LogisticsManagementSys
+namespace LogisticsSystem
 {
     public abstract class Tz20200440718_AbstractMedium
     {
@@ -11,6 +11,6 @@ namespace LogisticsManagementSys
         {
             this.message = message;
         }
-        public abstract void Post(string message);
+        public abstract string Post(string message);
     }
 }

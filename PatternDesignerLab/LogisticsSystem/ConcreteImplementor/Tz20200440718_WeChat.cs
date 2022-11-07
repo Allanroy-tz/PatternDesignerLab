@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace LogisticsManagementSys
+namespace LogisticsSystem
 {
     public class Tz20200440718_WeChat : Tz20200440718_AbstractMedium
     {
-        public override void Post(string message)
+        public override string Post(string message)
         {
-            this.message.PostMessage("微信", message);
+            return this.message.PostMessage("微信", message);
         }
     }
 }

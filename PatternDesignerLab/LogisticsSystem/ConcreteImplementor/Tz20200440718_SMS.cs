@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LogisticsManagementSys
+namespace LogisticsSystem
 {
     public class Tz20200440718_SMS : Tz20200440718_AbstractMedium
     {
-        public override void Post(string message)
+        public override string Post(string message)
         {
-            this.message.PostMessage("手机短信", message);
+            return this.message.PostMessage("手机短信", message);
         }
     }
 }

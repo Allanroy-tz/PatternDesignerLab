@@ -1,10 +1,10 @@
-﻿namespace LogisticsManagementSys
+﻿namespace LogisticsSystem
 {
     public class Tz20200440718_NormalMessage : Tz20200440718_IMessage
     {
-        public void PostMessage(string medium, string message)
+        public string PostMessage(string medium, string message)
         {
-            System.Console.WriteLine(string.Format("{0}:普通消息：“{1}”", medium, message));
+            return string.Format("{0}：{1}:普通消息：“{2}”", System.DateTime.Now.ToString(), medium, message);
         }
     }
 }
