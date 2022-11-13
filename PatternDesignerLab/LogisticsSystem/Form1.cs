@@ -12,16 +12,16 @@ namespace LogisticsSystem
 {
     public partial class Form1 : Form
     {
+        Tz20200440718_IMessage msg;
         Tz20200440718_SMS _SMS = new Tz20200440718_SMS();
         Tz20200440718_WeChat _WeChat = new Tz20200440718_WeChat();
         public Form1()
         {
             InitializeComponent();
         }
-        int num = 0;
         private void btn_PostMsg_Click(object sender, EventArgs e)
         {
-            Tz20200440718_IMessage msg;
+            
             if (rabtn_NormalMsg.Checked)
             {
                 msg = new Tz20200440718_NormalMessage();
@@ -35,7 +35,6 @@ namespace LogisticsSystem
                 _SMS.SetMessage(msg);
                 _WeChat.SetMessage(msg);
                 postNormalMsg();
-                timer_SpecialMsg.Start();
             }
         }
         private void postNormalMsg()
@@ -44,15 +43,17 @@ namespace LogisticsSystem
             txt_SMS.Text +=_SMS.Post(msgContent)+ "\r\n";
             txt_WeChat.Text += _WeChat.Post(msgContent) + "\r\n";
         }
-        
+        int Num = 0;
         private void postSpecialMsg(object sender, EventArgs e)
         {
-            if(num++>=5)
+            Tz20200440718_SpecialMessage specialMessage = (Tz20200440718_SpecialMessage)msg;
+
+            if (specialMessage.num++ >= 5)
             {
-                timer_SpecialMsg.Stop();
+                specialMessage.StopTimer();
                 return;
             }
-            string msgContent = txt_MesContent.Text;
+            string msgContent = txt_MesContent.Text+Num;
             txt_SMS.Text+=_SMS.Post(msgContent) + "\r\n";
             txt_WeChat.Text += _WeChat.Post(msgContent) + "\r\n";
         }
