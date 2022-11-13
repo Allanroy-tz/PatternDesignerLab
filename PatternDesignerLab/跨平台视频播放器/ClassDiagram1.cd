@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="跨平台视频播放器.Tz20200440718_OperatingSystemVersion" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Abstraction\Tz20200440718_OperatingSystemVersion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="跨平台视频播放器.Tz20200440718_WindowsVersion">
+    <Position X="6.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>RefinedAbstraction\Tz20200440718_WindowsVersion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="跨平台视频播放器.Tz20200440718_LinuxVersion">
+    <Position X="8.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>RefinedAbstraction\Tz20200440718_LinuxVersion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="跨平台视频播放器.Tz20200440718_HarmonyOsVersion">
+    <Position X="5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>RefinedAbstraction\Tz20200440718_HarmonyOsVersion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="跨平台视频播放器.Tz20200440718_AVIFile" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>ConcreteImplementor\Tz20200440718_AVIFile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="跨平台视频播放器.Tz20200440718_MP4File" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>ConcreteImplementor\Tz20200440718_MP4File.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="跨平台视频播放器.Tz20200440718_WMVFile" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>ConcreteImplementor\Tz20200440718_WMVFile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="跨平台视频播放器.Tz20200440718_MPEGAdapter">
+    <Position X="2.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Adapter\Tz20200440718_MPEGAdapter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="跨平台视频播放器.Tz20200440718_MPEGFile">
+    <Position X="4.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Adaptee\Tz20200440718_MPEGFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="跨平台视频播放器.Tz20200440718_IVideoFile">
+    <Position X="2.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Implementor-Target\Tz20200440718_IVideoFile.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
