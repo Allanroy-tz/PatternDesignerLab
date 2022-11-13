@@ -12,9 +12,6 @@ namespace LogisticsSystem
 {
     public partial class Form1 : Form
     {
-
-
-
         Tz20200440718_SMS _SMS = new Tz20200440718_SMS();
         Tz20200440718_WeChat _WeChat = new Tz20200440718_WeChat();
         public Form1()
