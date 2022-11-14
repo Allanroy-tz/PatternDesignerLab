@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Web", "PatternDesignerL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogisticsSystem", "PatternDesignerLab\LogisticsSystem\LogisticsSystem.csproj", "{4CB41FF3-4D16-4644-AEDF-5DE2307F38EA}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "跨平台视频播放器", "PatternDesignerLab\跨平台视频播放器\跨平台视频播放器.csproj", "{C27ABA1B-EFC6-42FB-8CA0-8C77F6470B20}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "描述王子", "PatternDesignerLab\描述王子\描述王子.csproj", "{1422BD1F-3106-49C3-9965-FFB0DE97EF18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{4CB41FF3-4D16-4644-AEDF-5DE2307F38EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CB41FF3-4D16-4644-AEDF-5DE2307F38EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CB41FF3-4D16-4644-AEDF-5DE2307F38EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C27ABA1B-EFC6-42FB-8CA0-8C77F6470B20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C27ABA1B-EFC6-42FB-8CA0-8C77F6470B20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C27ABA1B-EFC6-42FB-8CA0-8C77F6470B20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C27ABA1B-EFC6-42FB-8CA0-8C77F6470B20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1422BD1F-3106-49C3-9965-FFB0DE97EF18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1422BD1F-3106-49C3-9965-FFB0DE97EF18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1422BD1F-3106-49C3-9965-FFB0DE97EF18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1422BD1F-3106-49C3-9965-FFB0DE97EF18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
