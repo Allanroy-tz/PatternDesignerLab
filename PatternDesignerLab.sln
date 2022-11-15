@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "描述王子", "PatternDesi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Web", "PatternDesignerLab\The Web\The Web.csproj", "{87439A16-FD93-494D-A24C-2D2B6F0B4F88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite Pattern", "PatternDesignerLab\Composite Pattern\Composite Pattern.csproj", "{874D173B-1C66-4CC9-9C6F-5010F8677392}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite Pattern", "PatternDesignerLab\Composite Pattern\Composite Pattern.csproj", "{874D173B-1C66-4CC9-9C6F-5010F8677392}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyWeight_Pattern", "PatternDesignerLab\FlyWeight_Pattern\FlyWeight_Pattern.csproj", "{4DA73503-98F4-47B5-AB17-60B38AE2DA38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{874D173B-1C66-4CC9-9C6F-5010F8677392}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{874D173B-1C66-4CC9-9C6F-5010F8677392}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{874D173B-1C66-4CC9-9C6F-5010F8677392}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DA73503-98F4-47B5-AB17-60B38AE2DA38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DA73503-98F4-47B5-AB17-60B38AE2DA38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DA73503-98F4-47B5-AB17-60B38AE2DA38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DA73503-98F4-47B5-AB17-60B38AE2DA38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
