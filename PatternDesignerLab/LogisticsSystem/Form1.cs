@@ -35,6 +35,7 @@ namespace LogisticsSystem
                 _SMS.SetMessage(msg);
                 _WeChat.SetMessage(msg);
                 postNormalMsg();
+                timer_SpecialMsg.Start();
             }
         }
         private void postNormalMsg()
@@ -48,7 +49,8 @@ namespace LogisticsSystem
         {
             if(num++>=5)
             {
-                //specialMessage.StopTimer();
+                timer_SpecialMsg.Stop();
+                num = 0;
                 return;
             }
             string msgContent = txt_MesContent.Text;

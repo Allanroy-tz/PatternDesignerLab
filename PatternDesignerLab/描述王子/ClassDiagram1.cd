@@ -1,63 +1,52 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="描述王子.王子">
-    <Position X="1" Y="2.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
-      <FileName>王子.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="描述王子.各路人马">
-    <Position X="4" Y="2.5" Width="1.5" />
-    <Compartments>
-      <Compartment Name="Methods" Collapsed="true" />
-      <Compartment Name="Fields" Collapsed="true" />
-    </Compartments>
+  <Class Name="描述王子.Tz20200440718_各路人马">
+    <Position X="6.25" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAACAA=</HashCode>
-      <FileName>各路人马.cs</FileName>
+      <FileName>Tz20200440718_各路人马.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="描述王子.职务">
+  <Class Name="描述王子.Tz20200440718_职务">
     <Position X="3" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAACAA=</HashCode>
-      <FileName>职务.cs</FileName>
+      <FileName>Tz20200440718_职务.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="描述王子.人品">
-    <Position X="6.5" Y="4.25" Width="1.5" />
+  <Class Name="描述王子.Tz20200440718_人品">
+    <Position X="6" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
-      <FileName>人品.cs</FileName>
+      <FileName>Tz20200440718_人品.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="描述王子.婚姻">
+  <Class Name="描述王子.Tz20200440718_婚姻">
     <Position X="8.25" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
-      <FileName>婚姻.cs</FileName>
+      <FileName>Tz20200440718_婚姻.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="描述王子.心上人">
+  <Class Name="描述王子.Tz20200440718_心上人">
     <Position X="1.25" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
-      <FileName>心上人.cs</FileName>
+      <FileName>Tz20200440718_心上人.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="描述王子.家庭背景">
-    <Position X="4.75" Y="4.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAI=</HashCode>
-      <FileName>家庭背景.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="描述王子.特征" Collapsed="true">
-    <Position X="2.25" Y="1.5" Width="1.5" />
+  <Class Name="描述王子.Tz20200440718_特征">
+    <Position X="3" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
-      <FileName>特征.cs</FileName>
+      <FileName>Tz20200440718_特征.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="描述王子.Tz20200440718_王子" Collapsed="true">
+    <Position X="3" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Tz20200440718_王子.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Microsoft YaHei UI" Size="9" />

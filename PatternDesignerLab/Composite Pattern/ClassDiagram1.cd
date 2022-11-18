@@ -8,17 +8,24 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Composite_Pattern.Student">
-    <Position X="1" Y="3" Width="1.5" />
+    <Position X="1" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
       <FileName>Leaf\Student.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Composite_Pattern.Department">
-    <Position X="4" Y="2.75" Width="1.5" />
+    <Position X="4.5" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAIAAAAAAAAAAAAAAABABAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <HashCode>AAIAAAAAACAAAAAAAABABAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
       <FileName>Composite\Department.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Composite_Pattern.University" Collapsed="true">
+    <Position X="1" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAQBAAAAARAAAAAAAAAA=</HashCode>
+      <FileName>Client\University.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Microsoft YaHei UI" Size="9" />

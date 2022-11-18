@@ -1,45 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="FlyWeight_Pattern.OnlineShop">
-    <Position X="5.25" Y="1.75" Width="1.5" />
+  <Class Name="FlyWeight_Pattern.Tz20200440718_OnlineShop">
+    <Position X="5.75" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAgAAAAAAAAAAAAAAAAACAAAEgAAAAAAAAAAAAAA=</HashCode>
-      <FileName>OnlineShop.cs</FileName>
+      <FileName>Tz20200440718_OnlineShop.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="FlyWeight_Pattern.TemplateShop01">
-    <Position X="4" Y="3.5" Width="1.5" />
+  <Class Name="FlyWeight_Pattern.Tz20200440718_TemplateShop01">
+    <Position X="3.75" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
-      <FileName>TemplateShop01.cs</FileName>
+      <FileName>Tz20200440718_TemplateShop01.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="FlyWeight_Pattern.Logo" Collapsed="true">
-    <Position X="4" Y="0.75" Width="1.5" />
+  <Class Name="FlyWeight_Pattern.Tz20200440718_Logo">
+    <Position X="7.75" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAEAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Logo.cs</FileName>
+      <FileName>Tz20200440718_Logo.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="FlyWeight_Pattern.OnlineShopFactory">
+  <Class Name="FlyWeight_Pattern.Tz20200440718_OnlineShopFactory">
     <Position X="1.5" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AEAAAAAAAAAAABCAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>OnlineShopFactory.cs</FileName>
+      <FileName>Tz20200440718_OnlineShopFactory.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="FlyWeight_Pattern.TemplateShop02">
-    <Position X="6.5" Y="3.5" Width="1.5" />
+  <Class Name="FlyWeight_Pattern.Tz20200440718_TemplateShop02">
+    <Position X="5.75" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
-      <FileName>TemplateShop02.cs</FileName>
+      <FileName>Tz20200440718_TemplateShop02.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="FlyWeight_Pattern.TemplateShop03">
-    <Position X="8.75" Y="3.75" Width="1.5" />
+  <Class Name="FlyWeight_Pattern.Tz20200440718_TemplateShop03">
+    <Position X="7.75" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
-      <FileName>TemplateShop03.cs</FileName>
+      <FileName>Tz20200440718_TemplateShop03.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Microsoft YaHei UI" Size="9" />

@@ -7,7 +7,7 @@ namespace Composite_Pattern
         {
             string departmentName = ConfigurationManager.AppSettings.Get("Department");
             string message = ConfigurationManager.AppSettings.Get("Message");
-            University.Instance.教务部.FindDepartment(departmentName).Receive(message);
+            Tz20200440718_University.Instance.教务部.FindDepartment(departmentName).Receive(message);
         }
     }
 }
