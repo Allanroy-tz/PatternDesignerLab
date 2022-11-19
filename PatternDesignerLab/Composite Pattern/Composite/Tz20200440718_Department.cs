@@ -33,7 +33,7 @@ namespace Composite_Pattern
                 return this;
             foreach (Tz20200440718_Unit unit in unitList)
             {
-                if(unit.GetType()==Type.GetType("Composite_Pattern.Department"))
+                if(unit.GetType()==Type.GetType("Composite_Pattern.Tz20200440718_Department"))
                 {
                     Tz20200440718_Department dep = (Tz20200440718_Department)unit;
                     return dep.FindDepartment(name);

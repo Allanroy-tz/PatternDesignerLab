@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Chain_of_Responsibility_Pattern.任课老师" Collapsed="true">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteHandler\任课老师.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chain_of_Responsibility_Pattern.学院书记" Collapsed="true">
+    <Position X="8.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteHandler\学院书记.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chain_of_Responsibility_Pattern.学院副书记" Collapsed="true">
+    <Position X="12.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteHandler\学院副书记.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chain_of_Responsibility_Pattern.班主任" Collapsed="true">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteHandler\班主任.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chain_of_Responsibility_Pattern.辅导员" Collapsed="true">
+    <Position X="10.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteHandler\辅导员.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chain_of_Responsibility_Pattern.Leader" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAFAAAAAAAAAAAAEAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Handler\Leader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chain_of_Responsibility_Pattern.LeaveRequest" Collapsed="true">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAAQEAAAAA=</HashCode>
+      <FileName>LeaveRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
