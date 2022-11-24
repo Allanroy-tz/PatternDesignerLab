@@ -1,155 +1,155 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Command_Iterator_Factory_Pattern.Brand02Iterator" Collapsed="true">
+  <Class Name="Command_Iterator_Factory_Pattern.Tz202004407718_Brand02Iterator" Collapsed="true">
     <Position X="2.25" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AgAAAAAAAAAAAiABAAAAAAAAAAQAAAAAIAAAAAABAQA=</HashCode>
-      <FileName>Brand02Iterator.cs</FileName>
+      <FileName>Tz202004407718_Brand02Iterator.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Command_Iterator_Factory_Pattern.Brand03Iterator" Collapsed="true">
+  <Class Name="Command_Iterator_Factory_Pattern.Tz202004407718_Brand03Iterator" Collapsed="true">
     <Position X="4" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AgAAAAAAAAAAAiABAAAAAAAAAAQAAAAAIAAAAAABAQA=</HashCode>
-      <FileName>Brand03Iterator.cs</FileName>
+      <FileName>Tz202004407718_Brand03Iterator.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Command_Iterator_Factory_Pattern.Brand01Television" Collapsed="true">
+  <Class Name="Command_Iterator_Factory_Pattern.Tz202004407718_Brand01Television" Collapsed="true">
     <Position X="5.75" Y="1.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAIAACAAAAAAAAAAAAAAAAAAAAAACAAEA=</HashCode>
-      <FileName>Brand01Television.cs</FileName>
+      <HashCode>AAAAAAQAAAAAIAACAAAAAAAAAAAAAAAAAAAACACAAEA=</HashCode>
+      <FileName>Tz202004407718_Brand01Television.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Command_Iterator_Factory_Pattern.Brand02Television" Collapsed="true">
+  <Class Name="Command_Iterator_Factory_Pattern.Tz202004407718_Brand02Television" Collapsed="true">
     <Position X="7.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAIAACAAAAAAAAAAAAAAAAAAAAAACAAEA=</HashCode>
-      <FileName>Brand02Television.cs</FileName>
+      <HashCode>AAAAAAQAAAAAIAACAAAAAAAAAAAAAAAAAAAACACAAEA=</HashCode>
+      <FileName>Tz202004407718_Brand02Television.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Command_Iterator_Factory_Pattern.Brand03Television" Collapsed="true">
+  <Class Name="Command_Iterator_Factory_Pattern.Tz202004407718_Brand03Television" Collapsed="true">
     <Position X="9.25" Y="1.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAIAACAAAAAAAAAAAAAAAAAAAAAACAAEA=</HashCode>
-      <FileName>Brand03Television.cs</FileName>
+      <HashCode>AAAAAAQAAAAAIAACAAAAAAAAAAAAAAAAAAAACACAAEA=</HashCode>
+      <FileName>Tz202004407718_Brand03Television.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Command_Iterator_Factory_Pattern.Brand01Iterator" Collapsed="true">
+  <Class Name="Command_Iterator_Factory_Pattern.Tz202004407718_Brand01Iterator" Collapsed="true">
     <Position X="0.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AgAAAAAAAAAAAiABAAAAAAAAAAQAAAAAIAAAAAABAQA=</HashCode>
-      <FileName>Brand01Iterator.cs</FileName>
+      <FileName>Tz202004407718_Brand01Iterator.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Command_Iterator_Factory_Pattern.OpenTVCommand" Collapsed="true">
+  <Class Name="Command_Iterator_Factory_Pattern.Tz202004407718_OpenTVCommand" Collapsed="true">
     <Position X="0.5" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
-      <FileName>OpenTVCommand.cs</FileName>
+      <FileName>Tz202004407718_OpenTVCommand.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Command_Iterator_Factory_Pattern.CloseTVCommand" Collapsed="true">
+  <Class Name="Command_Iterator_Factory_Pattern.Tz202004407718_CloseTVCommand" Collapsed="true">
     <Position X="2" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
-      <FileName>CloseTVCommand.cs</FileName>
+      <FileName>Tz202004407718_CloseTVCommand.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Command_Iterator_Factory_Pattern.NextChannelCommand" Collapsed="true">
+  <Class Name="Command_Iterator_Factory_Pattern.Tz202004407718_NextChannelCommand" Collapsed="true">
     <Position X="3.5" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAgBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>NextChannelCommand.cs</FileName>
+      <FileName>Tz202004407718_NextChannelCommand.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Command_Iterator_Factory_Pattern.PreviousChannelCommand" Collapsed="true">
+  <Class Name="Command_Iterator_Factory_Pattern.Tz202004407718_PreviousChannelCommand" Collapsed="true">
     <Position X="3.5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAgBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>PreviousChannelCommand.cs</FileName>
+      <FileName>Tz202004407718_PreviousChannelCommand.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Command_Iterator_Factory_Pattern.SwitchChannelCommand" Collapsed="true">
+  <Class Name="Command_Iterator_Factory_Pattern.Tz202004407718_SwitchChannelCommand" Collapsed="true">
     <Position X="2" Y="3.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>SwitchChannelCommand.cs</FileName>
+      <HashCode>AAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tz202004407718_SwitchChannelCommand.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Command_Iterator_Factory_Pattern.InputChannelCommand" Collapsed="true">
+  <Class Name="Command_Iterator_Factory_Pattern.Tz202004407718_InputChannelCommand" Collapsed="true">
     <Position X="0.5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAQAIAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>InputChannelCommand.cs</FileName>
+      <HashCode>AAAAAAAAAAAABAQAIAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tz202004407718_InputChannelCommand.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Command_Iterator_Factory_Pattern.TVController" Collapsed="true">
+  <Class Name="Command_Iterator_Factory_Pattern.Tz202004407718_TVController" Collapsed="true">
     <Position X="7.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AQAAAAAAAAAIAgAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>TVController.cs</FileName>
+      <HashCode>AQAAAAAAAAAIAgAAAAAAAAAAAAACAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Tz202004407718_TVController.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Command_Iterator_Factory_Pattern.Brand01TVController" Collapsed="true">
+  <Class Name="Command_Iterator_Factory_Pattern.Tz202004407718_Brand01TVController" Collapsed="true">
     <Position X="5.75" Y="3.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AQAAAAAAAAAIAgAAACIAAAAAAAACAAAAAIAAAAIAAAA=</HashCode>
-      <FileName>Brand01TVController.cs</FileName>
+      <HashCode>AQAAAAAAAAAIAgAAACIAAAAAAAACAAAAAIAAAAIAAQA=</HashCode>
+      <FileName>Tz202004407718_Brand01TVController.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Command_Iterator_Factory_Pattern.Brand02TVController" Collapsed="true">
+  <Class Name="Command_Iterator_Factory_Pattern.Tz202004407718_Brand02TVController" Collapsed="true">
     <Position X="7.5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Brand02TVController.cs</FileName>
+      <HashCode>AQAAAAAAAAAIAgAAACIAAAAAAAACAAAAAIAAAAIAAQA=</HashCode>
+      <FileName>Tz202004407718_Brand02TVController.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Command_Iterator_Factory_Pattern.Brand03TVController" Collapsed="true">
+  <Class Name="Command_Iterator_Factory_Pattern.Tz202004407718_Brand03TVController" Collapsed="true">
     <Position X="9.25" Y="3.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Brand03TVController.cs</FileName>
+      <HashCode>AQAAAAAAAAAIAgAAACIAAAAAAAACAAAAAIAAAAIAAQA=</HashCode>
+      <FileName>Tz202004407718_Brand03TVController.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Command_Iterator_Factory_Pattern.TVFactory">
+  <Class Name="Command_Iterator_Factory_Pattern.Tz202004407718_TVFactory">
     <Position X="11.25" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>TVFactory.cs</FileName>
+      <FileName>Tz202004407718_TVFactory.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Interface Name="Command_Iterator_Factory_Pattern.ITVIterator" Collapsed="true">
-    <Position X="2" Y="0.5" Width="1.5" />
+  <Interface Name="Command_Iterator_Factory_Pattern.Tz202004407718_ITVIterator" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AgAAAAAAAAAAAiABAAAAAAAAAAQAAAAAIAAAAAAAAAA=</HashCode>
-      <FileName>ITVIterator.cs</FileName>
+      <FileName>Tz202004407718_ITVIterator.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="Command_Iterator_Factory_Pattern.ITelevision" Collapsed="true">
+  <Interface Name="Command_Iterator_Factory_Pattern.Tz202004407718_ITelevision" Collapsed="true">
     <Position X="7.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAIAACAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
-      <FileName>ITelevision.cs</FileName>
+      <HashCode>AAAAAAAAAAAAIAACAAAAAAAAAAAAAAAAAAAACACAAAA=</HashCode>
+      <FileName>Tz202004407718_ITelevision.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="Command_Iterator_Factory_Pattern.ICommand" Collapsed="true">
+  <Interface Name="Command_Iterator_Factory_Pattern.Tz202004407718_ICommand" Collapsed="true">
     <Position X="2" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ICommand.cs</FileName>
+      <FileName>Tz202004407718_ICommand.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Microsoft YaHei UI" Size="9" />

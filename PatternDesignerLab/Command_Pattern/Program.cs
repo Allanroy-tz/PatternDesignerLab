@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Command_Pattern
 {
@@ -7,52 +8,77 @@ namespace Command_Pattern
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            AbstractCommand<Light> lightCMD = new AbstractCommand<Light>();
-            AbstractCommand<AirFan> airFanCMD = new AbstractCommand<AirFan>();
-            AbstractCommand<AirConditioner> airConditionerCMD = new AbstractCommand<AirConditioner>();
-            AbstractCommand<MultimediaEquipment> MECMD = new AbstractCommand<MultimediaEquipment>();
+            Tz20200440718_ICommnad close, open;
+            Tz20200440718_CommandController commandController;
+            Tz20200440718_CommandGroup lightGroup;
+            Tz20200440718_Light light01 = new Tz20200440718_Light(01);
+            Tz20200440718_Light light02 = new Tz20200440718_Light(02);
 
-            AirConditioner airConditioner01 = new AirConditioner(01);
-            AirConditioner airConditioner02 = new AirConditioner(02);
-            AirConditioner airConditioner03 = new AirConditioner(03);
-            AirConditioner airConditioner04 = new AirConditioner(04);
-            airConditionerCMD.AddObject(01, airConditioner01);
-            airConditionerCMD.AddObject(02, airConditioner02);
-            airConditionerCMD.AddObject(03, airConditioner03);
-            airConditionerCMD.AddObject(04, airConditioner04);
+            close = new Tz20200440718_CloseCommand(light01);
+            open = new Tz20200440718_OpenCommand(light01);
+            commandController = new Tz20200440718_CommandController(close, open);
+            lightGroup = new Tz20200440718_CommandGroup();
+            lightGroup.Add(01,commandController);
 
-            AirFan airFan01 = new AirFan(01);
-            AirFan airFan02 = new AirFan(02);
-            AirFan airFan03 = new AirFan(03);
-            airFanCMD.AddObject(01, airFan01);
-            airFanCMD.AddObject(02, airFan02);
-            airFanCMD.AddObject(03, airFan03);
+            close = new Tz20200440718_CloseCommand(light02);
+            open = new Tz20200440718_OpenCommand(light02);
+            commandController = new Tz20200440718_CommandController(close, open);
+            lightGroup.Add(02,commandController);
 
-            Light light01 = new Light(01);
-            Light light02 = new Light(02);
-            Light light03 = new Light(03);
-            Light light04 = new Light(04);
-            lightCMD.AddObject(01, light01);
-            lightCMD.AddObject(02, light02);
-            lightCMD.AddObject(03, light03);
-            lightCMD.AddObject(04, light04);
+            Tz20200440718_CommandGroup airFanGroup;
+            Tz20200440718_AirFan airFan01 = new Tz20200440718_AirFan(01);
+            Tz20200440718_AirFan airFan02 = new Tz20200440718_AirFan(02);
 
-            MultimediaEquipment ME01 = new MultimediaEquipment(01);
-            MultimediaEquipment ME02 = new MultimediaEquipment(02);
-            MECMD.AddObject(01, ME01);
-            MECMD.AddObject(02, ME02);
+            close = new Tz20200440718_CloseCommand(airFan01);
+            open = new Tz20200440718_OpenCommand(airFan01);
+            commandController = new Tz20200440718_CommandController(close, open);
+            airFanGroup = new Tz20200440718_CommandGroup();
+            airFanGroup.Add(01, commandController);
+
+            close = new Tz20200440718_CloseCommand(airFan02);
+            open = new Tz20200440718_OpenCommand(airFan02);
+            commandController = new Tz20200440718_CommandController(close, open);
+            airFanGroup.Add(02, commandController);
+
+            Tz20200440718_CommandGroup airConditionerGroup;
+            Tz20200440718_AirConditioner airConditioner01 = new Tz20200440718_AirConditioner(01);
+            Tz20200440718_AirConditioner airConditioner02 = new Tz20200440718_AirConditioner(02);
+
+            close = new Tz20200440718_CloseCommand(airConditioner01);
+            open = new Tz20200440718_OpenCommand(airConditioner01);
+            commandController = new Tz20200440718_CommandController(close, open);
+            airConditionerGroup = new Tz20200440718_CommandGroup();
+            airConditionerGroup.Add(01, commandController);
+
+            close = new Tz20200440718_CloseCommand(airConditioner02);
+            open = new Tz20200440718_OpenCommand(airConditioner02);
+            commandController = new Tz20200440718_CommandController(close, open);
+            airConditionerGroup.Add(02, commandController);
+
+            Tz20200440718_CommandGroup multimediaEquipmentGroup;
+            Tz20200440718_MultimediaEquipment multimediaEquipment01 = new Tz20200440718_MultimediaEquipment(01);
+            Tz20200440718_MultimediaEquipment multimediaEquipment02 = new Tz20200440718_MultimediaEquipment(02);
+
+            close = new Tz20200440718_CloseCommand(multimediaEquipment01);
+            open = new Tz20200440718_OpenCommand(multimediaEquipment01);
+            commandController = new Tz20200440718_CommandController(close, open);
+            multimediaEquipmentGroup = new Tz20200440718_CommandGroup();
+            multimediaEquipmentGroup.Add(01, commandController);
+
+            close = new Tz20200440718_CloseCommand(multimediaEquipment02);
+            open = new Tz20200440718_OpenCommand(multimediaEquipment02);
+            commandController = new Tz20200440718_CommandController(close, open);
+            multimediaEquipmentGroup.Add(02, commandController);
 
 
-            Controller controller = new Controller(lightCMD,airConditionerCMD,airFanCMD,MECMD);
-            controller.OpenAirConditionerAll();
-            controller.OpenAirFanAll();
-            controller.OpenLightAll();
-            controller.OpenMEAll();
-
-            controller.CloseAirConditionerAll();
-            controller.CloseAirFanAll();
-            controller.CloseLightAll();
-            controller.CloseMEAll();
+            lightGroup.Open();
+            lightGroup.CloseAt(02);
+            airFanGroup.Open();
+            airFanGroup.CloseAt(01);
+            airConditionerGroup.Open();
+            airConditionerGroup.CloseAt(02);
+            multimediaEquipmentGroup.Open();
+            multimediaEquipmentGroup.CloseAt(01);
         }
     }
 }

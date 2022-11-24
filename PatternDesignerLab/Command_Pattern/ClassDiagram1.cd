@@ -1,84 +1,86 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Command_Pattern.AbstractCommand&lt;T&gt;" Collapsed="true">
-    <Position X="5.25" Y="1" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAACAQEAAAIAAAAAAAAAAABAAAAAAAAAAAAACAAAI=</HashCode>
-      <FileName>Command\AbstractCommand.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Command_Pattern.LightCommand" Collapsed="true">
-    <Position X="4.5" Y="3" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ConcreteCommand\LightCommand.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Command_Pattern.AirConditionerCommand" Collapsed="true">
-    <Position X="6.25" Y="3" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ConcreteCommand\AirConditionerCommand.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Command_Pattern.AirFanCommand" Collapsed="true">
-    <Position X="8" Y="3" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ConcreteCommand\AirFanCommand.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Command_Pattern.MultimediaEquipmentCommand" Collapsed="true">
-    <Position X="2.75" Y="3" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ConcreteCommand\MultimediaEquipmentCommand.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Command_Pattern.MultimediaEquipment" Collapsed="true">
-    <Position X="2.75" Y="4.25" Width="1.5" />
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Command_Pattern.Tz20200440718_AirConditioner">
+    <Position X="2.25" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
-      <FileName>Receiver\MultimediaEquipment.cs</FileName>
+      <FileName>Tz20200440718_AirConditioner.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Command_Pattern.Light" Collapsed="true">
-    <Position X="4.5" Y="4.25" Width="1.5" />
+  <Class Name="Command_Pattern.Tz20200440718_AirFan">
+    <Position X="3.75" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
-      <FileName>Receiver\Light.cs</FileName>
+      <FileName>Tz20200440718_AirFan.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Command_Pattern.AirConditioner" Collapsed="true">
-    <Position X="6.25" Y="4.25" Width="1.5" />
+  <Class Name="Command_Pattern.Tz20200440718_CloseCommand" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Tz20200440718_CloseCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Command_Pattern.Tz20200440718_Light">
+    <Position X="5.25" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
-      <FileName>Receiver\AirConditioner.cs</FileName>
+      <FileName>Tz20200440718_Light.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Command_Pattern.AirFan" Collapsed="true">
-    <Position X="8" Y="4.25" Width="1.5" />
+  <Class Name="Command_Pattern.Tz20200440718_MultimediaEquipment">
+    <Position X="6.75" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
-      <FileName>Receiver\AirFan.cs</FileName>
+      <FileName>Tz20200440718_MultimediaEquipment.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Command_Pattern.Controller">
-    <Position X="0.5" Y="0.5" Width="1.5" />
+  <Class Name="Command_Pattern.Tz20200440718_OpenCommand" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAEAgAAhAEAIAIgCBAAIoIAAFCAQAAAAAAAAAAIAQAA=</HashCode>
-      <FileName>Invoker\Controller.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Tz20200440718_OpenCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Command_Pattern.Tz20200440718_CommandGroup">
+    <Position X="10.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAIAAAAAAABAAAAAAAAAAADAEAAACAAAA=</HashCode>
+      <FileName>Tz20200440718_CommandGroup.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Interface Name="Command_Pattern.ISwitch" Collapsed="true">
-    <Position X="5.5" Y="5" Width="1.5" />
+  <Class Name="Command_Pattern.Tz20200440718_AbstractCommandGroup">
+    <Position X="9.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
-      <FileName>SwitchInterface\ISwitch.cs</FileName>
+      <FileName>Tz20200440718_AbstractCommandGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Command_Pattern.Tz20200440718_CommandController">
+    <Position X="8.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAIAAAACAAAA=</HashCode>
+      <FileName>Tz20200440718_CommandController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Command_Pattern.Tz20200440718_ICommnad">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tz20200440718_ICommnad.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Command_Pattern.Tz20200440718_ISwitch">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Tz20200440718_ISwitch.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Microsoft YaHei UI" Size="9" />
