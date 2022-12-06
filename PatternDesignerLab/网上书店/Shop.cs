@@ -1,24 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Observer_Pattern
+﻿namespace 网上书店
 {
-    public class HuaweiShop : Subject
+    public class Shop : Subject
     {
         public override void Attach(Observer obs)
         {
-            obsList.Add(obs);
+            userList.Add(obs);
         }
 
         public override void Detach(Observer obs)
         {
-            obsList.Remove(obs);
+            userList.Remove(obs);
         }
 
         public override void Notify()
         {
-            foreach (Observer obs in obsList)
+            foreach (Observer obs in userList)
             {
                 obs.Update();
             }

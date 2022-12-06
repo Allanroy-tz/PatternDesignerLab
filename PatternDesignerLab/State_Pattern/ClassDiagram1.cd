@@ -1,52 +1,46 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="State_Pattern.AbstratcState" Collapsed="true">
-    <Position X="6.5" Y="0.75" Width="1.5" />
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="State_Pattern.Tz20200440718_AbstratcState">
+    <Position X="5.5" Y="0.5" Width="3.25" />
     <TypeIdentifier>
-      <HashCode>AIAAQACAAQAAAAAABEAAAAAAAAIAAAABAAIAAQAAAAA=</HashCode>
-      <FileName>AbstratcState.cs</FileName>
+      <HashCode>AIAAQAAAAQAAAAAABUAAAAAAAAIAAAABAAIAAAAAAAA=</HashCode>
+      <FileName>Tz20200440718_AbstratcState.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Player" />
-    </ShowAsAssociation>
   </Class>
-  <Class Name="State_Pattern.PrimaryState">
-    <Position X="7.5" Y="2.25" Width="1.5" />
+  <Class Name="State_Pattern.Tz20200440718_PrimaryState">
+    <Position X="6.5" Y="4.25" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
-      <FileName>PrimaryState.cs</FileName>
+      <FileName>Tz20200440718_PrimaryState.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="State_Pattern.ProfessionalState">
-    <Position X="5.75" Y="2.25" Width="1.5" />
+  <Class Name="State_Pattern.Tz20200440718_ProfessionalState">
+    <Position X="4" Y="4.25" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ProfessionalState.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAIAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Tz20200440718_ProfessionalState.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="State_Pattern.SecondaryState">
-    <Position X="4" Y="2.25" Width="1.5" />
+  <Class Name="State_Pattern.Tz20200440718_SecondaryState">
+    <Position X="1.75" Y="4.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>SecondaryState.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Tz20200440718_SecondaryState.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="State_Pattern.FinalState">
-    <Position X="9.25" Y="2.25" Width="1.5" />
+  <Class Name="State_Pattern.Tz20200440718_FinalState">
+    <Position X="9.25" Y="4.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>FinalState.cs</FileName>
+      <HashCode>AIAAAAAAAAAAAAAABAAAAAAAAAIAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Tz20200440718_FinalState.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="State_Pattern.Player" Collapsed="true">
-    <Position X="2" Y="0.75" Width="1.5" />
+  <Class Name="State_Pattern.Tz20200440718_Player">
+    <Position X="11.75" Y="0.5" Width="3.75" />
     <TypeIdentifier>
-      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
-      <FileName>Player.cs</FileName>
+      <HashCode>AIAARACAAAAAAAAABUAAAAAAAAIEAAAEAAIAAAAAAAA=</HashCode>
+      <FileName>Tz20200440718_Player.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="AbstratcState" />
-    </ShowAsAssociation>
   </Class>
   <Font Name="Microsoft YaHei UI" Size="9" />
 </ClassDiagram>

@@ -1,9 +1,9 @@
 ﻿namespace State_Pattern
 {
-    public abstract class AbstratcState
+    public abstract class Tz20200440718_AbstratcState
     {
         protected string rank;
-        public Player player
+        public Tz20200440718_Player player
         {
             get;
             set;
@@ -27,7 +27,7 @@
 
         public virtual void DoubleScore()
         {
-            System.Console.WriteLine("{0}{1}没有DoubleScore的资格",player.GetRank(),player.name);
+            System.Console.WriteLine("{0}{1}没有DoubleScore的资格", player.GetRank(), player.name);
         }
 
         public virtual void ChangeCards()

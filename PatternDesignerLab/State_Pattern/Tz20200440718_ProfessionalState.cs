@@ -1,18 +1,18 @@
 ﻿namespace State_Pattern
 {
-    public class ProfessionalState : AbstratcState
+    public class Tz20200440718_ProfessionalState : Tz20200440718_AbstratcState
     {
-        public ProfessionalState(AbstratcState state) { rank = "高手级"; player = state.player; CheckState(); }
+        public Tz20200440718_ProfessionalState(Tz20200440718_AbstratcState state) { rank = "高手级"; player = state.player; CheckState(); }
         public override void CheckState()
         {
             if (player.point>=500)
             {
-                player.SetState(new FinalState(this));
+                player.SetState(new Tz20200440718_FinalState(this));
                 System.Console.WriteLine("{0}从高手级升级为骨灰级",player.name);
             }
             if(player.point<100)
             {
-                player.SetState(new SecondaryState(this));
+                player.SetState(new Tz20200440718_SecondaryState(this));
                 System.Console.WriteLine("{0}从高手级降级为熟练级",player.name);
             }
         }

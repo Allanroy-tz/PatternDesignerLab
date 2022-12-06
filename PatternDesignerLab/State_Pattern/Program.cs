@@ -7,7 +7,7 @@ namespace State_Pattern
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Player 张三 = new Player("张三");
+            Tz20200440718_Player 张三 = new Tz20200440718_Player("张三");
             
             张三.Win();
             张三.Win();

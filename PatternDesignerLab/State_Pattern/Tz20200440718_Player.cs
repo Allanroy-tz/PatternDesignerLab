@@ -1,17 +1,17 @@
 ﻿namespace State_Pattern
 {
-    public class Player
+    public class Tz20200440718_Player
     {
         public int point { get; set; }
         public string name;
-        protected AbstratcState state
+        protected Tz20200440718_AbstratcState state
         {
             get;
             set;
         }
-        public Player(string name)
+        public Tz20200440718_Player(string name)
         {
-            this.name = name; state = new PrimaryState(this);
+            this.name = name; state = new Tz20200440718_PrimaryState(this);
             state.player = this;
         }
 
@@ -41,7 +41,7 @@
         {
             state.PeekCards();
         }
-        public void SetState(AbstratcState state)
+        public void SetState(Tz20200440718_AbstratcState state)
         {
             this.state = state;
         }

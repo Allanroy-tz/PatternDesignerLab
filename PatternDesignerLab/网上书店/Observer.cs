@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Observer_Pattern
+namespace 网上书店
 {
     public interface Observer
     {
-        void Update();
+        void Update(string msg);
     }
 }
