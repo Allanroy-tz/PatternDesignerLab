@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Lab5_3.DeathState">
+    <Position X="1.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAKAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Tz0718DeathState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab5_3.Tz0718FemaleSoldier">
+    <Position X="1" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAEAAAAAAAEAAAABAAAAAAAAEAA=</HashCode>
+      <FileName>Tz0718FemaleSoldier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab5_3.Tz0718MaleSoldier">
+    <Position X="3.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAEAAAAAAAEAAAABAAAAAAAAEAA=</HashCode>
+      <FileName>Tz0718MaleSoldier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab5_3.Tz0718NormalState">
+    <Position X="3.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAKAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Tz0718NormalState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab5_3.Tz0718PauseState">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAKAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Tz0718PauseState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab5_3.Tz0718Pistol" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAEAAAABAAACACAAAA=</HashCode>
+      <FileName>Tz0718Pistol.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab5_3.Tz0718PistolFactory" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tz0718PistolFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab5_3.Tz0718Player">
+    <Position X="8.25" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>CAIgBRAAAKAAAAAAAEAEAAAACYAEAAAEAAAAQAAAhCQ=</HashCode>
+      <FileName>Tz0718Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab5_3.Tz0718PlayerBuilder">
+    <Position X="2.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAEAAAAAAAEAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Tz0718PlayerBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab5_3.Tz0718PlayerCreateDirector">
+    <Position X="4.5" Y="6" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tz0718PlayerCreateDirector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab5_3.Program" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab5_3.Tz0718SniperRifle" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAEAAAABAAACACAAAA=</HashCode>
+      <FileName>Tz0718SniperRifle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab5_3.Tz0718SniperRifleFactory" BaseTypeListCollapsed="true">
+    <Position X="20.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tz0718SniperRifleFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab5_3.Tz0718State">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAKAAAAAAAAAAAAAAAIAAAAABAAAAAAAAgAA=</HashCode>
+      <FileName>Tz0718State.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab5_3.Tz0718SubmachineGun" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAEAAAABAAACACAAAA=</HashCode>
+      <FileName>Tz0718SubmachineGun.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab5_3.Tz0718SubmachineGunFactory" BaseTypeListCollapsed="true">
+    <Position X="17.25" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tz0718SubmachineGunFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Lab5_3.Tz0718Weapon">
+    <Position X="12" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAEAAAABAAACAAAAAA=</HashCode>
+      <FileName>Tz0718Weapon.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Lab5_3.Tz0718WeaponFactory">
+    <Position X="12" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tz0718WeaponFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

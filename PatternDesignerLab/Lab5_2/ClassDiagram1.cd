@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Lab5_2.Tz0718Department">
+    <Position X="4.25" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAIABAAAAAAAAAAAAAAAAAAEgAQ=</HashCode>
+      <FileName>Tz0718Department.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab5_2.Tz0718Employee">
+    <Position X="7" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAIABAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Tz0718Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab5_2.Tz0718MeetingList">
+    <Position X="8.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAIAAAAAAAAAAAAAAAAAAAgAAAAAAAAQAA=</HashCode>
+      <FileName>Tz0718MeetingList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab5_2.Program">
+    <Position X="9.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab5_2.Tz0718User">
+    <Position X="5.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAIABAAAAAAEAAAAAAAAAAAABAQ=</HashCode>
+      <FileName>Tz0718User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
